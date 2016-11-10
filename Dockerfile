@@ -1,7 +1,5 @@
 FROM java:7
 
-RUN mkdir javahelloworld
-WORKDIR javahelloworld
 RUN mkdir bin
 RUN javac -d bin HelloWorld.java
 
